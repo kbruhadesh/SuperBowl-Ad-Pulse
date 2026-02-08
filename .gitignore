@@ -1,5 +1,6 @@
 # API key – do not commit
 .env
+.DS_Store
 .venv/
 __pycache__/
 *.pyc
