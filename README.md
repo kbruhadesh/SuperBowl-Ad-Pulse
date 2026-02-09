@@ -4,7 +4,7 @@ Upload a video (e.g. game or ad reel), get **live segment-by-segment analysis** 
 
 ## Demo
 
-<video src="result.mp4" controls width="100%"></video>
+<video src="https://raw.githubusercontent.com/leolorence12345/SuperBowl/main/result.mp4" controls width="100%"></video>
 
 ## Stack
 
