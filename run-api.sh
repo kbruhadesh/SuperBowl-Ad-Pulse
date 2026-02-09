@@ -1,5 +1,14 @@
-#!/usr/bin/env bash
-# Run the FastAPI backend from the NFL project root so it can import understanding.py
-cd "$(dirname "$0")"
-source .venv/bin/activate 2>/dev/null || true
-uvicorn api:app --reload --port 8000
+#!/bin/bash
+# Start the SuperBowl Ad Pulse API
+
+# Activate virtual environment if exists
+if [ -d ".venv" ]; then
+    source .venv/bin/activate
+fi
+
+# Run the new modular backend
+echo "Starting SuperBowl Ad Pulse API on http://localhost:8000"
+echo "API Docs: http://localhost:8000/docs"
+echo ""
+
+uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000

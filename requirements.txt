@@ -1,9 +1,24 @@
-streamlit>=1.28.0
-google-genai>=1.0.0
+# SuperBowl Ad Pulse — Python Dependencies
+
+# Core Framework
 fastapi>=0.100.0
 uvicorn[standard]>=0.22.0
 python-dotenv>=1.0.0
-opencv-python>=4.8.0
-sounddevice>=0.4.6
-numpy>=1.24.0
+pydantic>=2.0.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# AI Services
+google-genai>=1.0.0
 groq>=1.0.0
+
+# Optional: Streamlit GUI (can be removed)
+streamlit>=1.28.0
+
+# Video Processing (for live_streaming.py - optional)
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Audio (for live_streaming.py - optional)
+# sounddevice>=0.4.6

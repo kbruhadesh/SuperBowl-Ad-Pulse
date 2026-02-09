@@ -16,3 +16,14 @@ __pycache__/
 uploaded_video.mp4
 test.mp4
 WhatsApp*
+
+# Database (generated)
+superbowl_pulse.db
+
+# Node modules
+node_modules/
+dist/
+
+# Old JSON files (deprecated)
+# results.json
+# ad_results.json
