@@ -2,6 +2,10 @@
 
 Upload a video (e.g. game or ad reel), get **live segment-by-segment analysis** with Google Gemini, and **AI-generated ad ideas** from events (Groq). Results stream to the React UI and are written to `results.json` and `ad_results.json`.
 
+## Demo
+
+<video src="result.mp4" controls width="100%"></video>
+
 ## Stack
 
 - **Backend:** FastAPI (Python) — video upload to Gemini, segment analysis, ad generation

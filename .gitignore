@@ -7,6 +7,7 @@ __pycache__/
 
 # Videos and large binaries (do not push to GitHub)
 *.mp4
+!result.mp4
 *.webm
 *.mov
 *.avi
